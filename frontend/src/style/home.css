@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+
+}
+.main{
+
+    justify-content: center;
+    width: 50%;
+    margin:0 auto;
+    max-width: 700px;
+
+
+
+}
+.Date{
+    background-color: cadetblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+}
+.ShowDate{
+    color: black;
+    font-size: 20px;
+    background-color: cadetblue;
+    width: 60px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.bar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+.showExpense{
+    height: 130px;
+    background-image:linear-gradient(to right,#FD5050,#FD8888);
+    width: 100%;
+    transform: skew(-12deg);
+    margin-right:-15px;
+    padding: 10px;
+
+}
+.showIncome{
+    height: 130px;
+    background-image: linear-gradient(to right,#5294E6,#84C1F4);
+    width: 100%;
+    transform: skew(-12deg);
+    margin-left:-15px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+.showBalance{
+
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 9px;
+    bottom: 0;
+    margin: auto auto;
+    z-index: 10;
+    height: 35px;
+    background:white;
+    font-size: 15px;
+    text-align: center;
+
+
+
+}
+.balancename{
+    margin-top: -8px;
+
+}
+.addItem{
+    height: calc(100vh - 60px);
+    background-color: #DEDCDC;
+    overflow: auto;
+    padding: 10px;
+
+
+}
+.plus {
+    font-size: 55px;
+    color: green;
+    position:fixed;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom:0;
+    border-style: none;
+    border-radius: 30px;
+    opacity: 0.7;
+
+}
+.log-show{
+    display: flex;
+    font-size: 20px;
+    background:white;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 30px;
+}
+.eamt{
+
+    margin-left: auto;
+    color: red;
+}
+.amt{
+    color:green;
+    margin-left:auto;
+}

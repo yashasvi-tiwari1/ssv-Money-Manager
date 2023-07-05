@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+
+}
+.top   {
+    display: flex;
+    width:100%;
+    max-width:700px;
+    margin: 0 auto;
+    border-style: none;
+
+
+
+}
+.expense{
+    background:white;
+    height: 40px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 7px;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:"Arial Black";
+    max-width: 700px;
+    border-style: none;
+}
+.income{
+    background-image: linear-gradient(to right,#5294E6,#84C1F4);
+    height: 40px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Arial Black";
+    max-width: 700px;
+    border-style: none;
+}
+.eexpense{
+    background-image:linear-gradient(to right,#FD5050,#FD8888);
+    height: 40px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:"Arial Black";
+    max-width: 700px;
+    border-style: none;
+}
+.eincome{
+    background:white;
+    height: 40px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 7px;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Arial Black";
+    max-width: 700px;
+    border-style: none;
+}
+.body{
+   max-width: 700px;
+    width: 100%;
+    background-color: #DEDCDC;
+    height: calc(100vh - 60px);
+
+
+}
+.content{
+
+    display: flex;
+    /*justify-content: center;*/
+    border-radius: 10px;
+    border-style: none;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+
+
+}
+
+.items{
+    display:flex;
+    flex-direction: column;
+    /*margin-top: 40px;*/
+    font-size: 25px;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.items span{
+    /*display:flex;*/
+    /*flex-direction: column;*/
+    /*text-align: center;*/
+
+}

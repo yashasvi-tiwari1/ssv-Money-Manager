@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: darkslategray;
+    flex-wrap: wrap;
+    justify-content: right;
+    color: white;
+    padding: 15px;
+
+
+}
+.signin{
+
+    margin-right: 20px;
+
+
+}
+.category{
+
+    margin-right: 20px;
+}
+.Home{
+    margin-right: 20px;
+    cursor: pointer;
+
+}
